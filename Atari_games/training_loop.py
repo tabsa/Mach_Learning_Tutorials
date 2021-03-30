@@ -1,5 +1,7 @@
-## Cross-entropy RL method - Baseline method to others (DQN, actor-critic)
-# Applied for the CartPole problem
+## DQN model to solve Q-learning
+# Applied DQN to solve the Pong game from the Atari environment on Gym
+# This file has the training process of the DQN model, saved in the dat.file
+# The goal of the training is to reach a mean_reward >= 19.5. The mean reward is calculated for the latest 100 episodes
 
 #%% Import packages
 import argparse
